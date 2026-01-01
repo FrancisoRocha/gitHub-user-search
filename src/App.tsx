@@ -1,9 +1,15 @@
+import { Header } from "./components/Header"
 
 
 function App() {
 
+
   return (
-      <h1 className="text-7xl text-blue-600">Inicio de Proyecto</h1>
+      //Cotenedor de la App y de los componentes
+      <div className="px-4 py-8 md:px-8 md:py-10 lg:flex
+          lg:justify-center lg:items-center">
+          <Header />
+      </div>
   )
 }
 
