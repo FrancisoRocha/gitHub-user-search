@@ -1,7 +1,6 @@
 import { Logo } from "./Logo";
 import { ThemesUI } from "./ThemesUI";
 
-
 export function Header () {
 
     return (
@@ -9,9 +8,7 @@ export function Header () {
             <Logo
                 texto='devfinder'
             />
-            <ThemesUI
-                texto="Dark"
-            />
+            <ThemesUI />
         </header>
     )
 
