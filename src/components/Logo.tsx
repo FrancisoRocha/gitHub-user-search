@@ -1,5 +1,4 @@
-import type { LogoProps } from "../types"
-
+import type { LogoProps } from "../types";
 
 export function Logo ( { texto } : LogoProps ) {
     return (
