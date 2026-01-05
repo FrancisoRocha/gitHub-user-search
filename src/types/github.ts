@@ -1,5 +1,4 @@
 
-
 // Typado de la API
 export interface GitHubUser {
     login : string,
